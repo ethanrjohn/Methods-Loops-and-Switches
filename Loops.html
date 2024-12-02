@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JavaScript</title>
+</head>
+<body>
+    <h1>
+        For loop in JavaScript
+    </h1>
+    <p id="p1"></p>
+    <script>
+        var fruits=["Apple","Mango","Banana","Grapes"];
+        var text ="";
+        var i;
+        for(i=0;i<fruits.length;i++){
+            text=text+fruits[i]+"<br>";
+        }
+        document.getElementById("p1").innerHTML=text;
+    </script>
+</body>
+</html>
